@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Octavian-Valentin Nemet</title>
+  <style>
+  :root {
+    --background: white;
+    --foreground: darkgrey;
+    --emphasis: grey;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: 'Open Sans', 'Lato', 'Arial', sans-serif;
+  }
+
+  main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: fade-in 2s;
+    animation-fill-mode: forwards;
+  }
+
+  h1 {
+    color: var(--emphasis);
+    font-size: 1.15rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    opacity: .75;
+  }
+
+  li {
+    display: inline;
+    margin-left: 5px;
+    font-size: .9rem;
+  }
+
+  li:first-child {
+    margin-left: 0;
+  }
+
+  a {
+    color: var(--foreground);
+  }
+
+  a:hover {
+    color: var(--emphasis);
+  }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Octavian-Valentin Nemet</h1>
+    <ul>
+      <li><a href="https://nemet3d.com/"><i class="fa fa-link"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/octavian-valentin-nemet/"><i class="fa fa-linkedin"></i></a></li>
+      <li><a href="https://twitter.com/nemet3d"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="mailto:octavian@nemet.ro"><i class="fa fa-envelope"></i></a></li>
+    </ul>
+  </main>
+</body>
+</html>
